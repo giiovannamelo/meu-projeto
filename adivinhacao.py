@@ -6,7 +6,7 @@ print("Estou pensando em um número de 1 a 100...")
 numero_secreto = random.randint (1,100)
 tentativas = 0
 
-while true: 
+while True: 
 try: 
 palpite = int(input("digite seu palpite"))
 tentativas += 1 
